@@ -69,8 +69,15 @@ git log -p docs/CHANGELOG.md
 ed62890417d8c8fb880e55a2b8933b80b00ea1bd
 ### Partie 4 — Branches et fusions
 
-9. Quelles branches ont été fusionnées dans `main` ?  
-10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ? 
+9. Quelles branches ont été fusionnées dans `main` ? 
+git branch -a --merged
+remotes/origin/HEAD
+10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ?
+remotes/origin/feature/header
+remotes/origin/feature/login
+remotes/origin/hotfix/typo
+remotes/origin/main
+Elle pointent pas vers origin/main
 
 ### Partie 5 — Analyse du contenu
 
