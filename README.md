@@ -93,7 +93,8 @@ experiment/dark-mode
 ne pas avoir de clef d'api public
 ### Partie 6 — Réflexion
 
-15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
+15. Pourquoi est-il important de **taguer** des versions dans un projet ?
+pour savoir quelle version est laquelle
 16. Que peut-on déduire du style de travail de l'équipe à partir de cet historique GIT ?  
-
+c'est bien fait, il y a des branches pour chaque feature et tout versionné a merveille 
 Bonne chance, et surtout... **ne vous perdez pas dans le log !** 😉
