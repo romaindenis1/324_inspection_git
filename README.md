@@ -26,7 +26,7 @@ https://github.com/ETML-RRY/324_inspection_git.git
 4. Répondez directement aux questions dans le fichier README.md qui est au format **Markdown**
 5. Pour chaque points, veuillez noter la ou les commandes `git` utilisées vous permettant de répondre à la question.
 6. Pour chaque partie, effectuez au minimum un commit et un push lorsque vous avez complété les réponses de la partie correspondante.
-
+DONE
 > Le format Markdown: [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
 
 
