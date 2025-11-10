@@ -81,11 +81,16 @@ Elle pointent pas vers origin/main
 
 ### Partie 5 — Analyse du contenu
 
-11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.2` et quelle commande permet de le voir rapidement ?  
-12. Que contient la branche `feature/login` ?  
-13. Dans quelle branche a été ajouté le code pour le **mode sombre** ?  
-14. Quelle bonne pratique de sécurité est évoquée dans les commits du fichier `config.js` ?
+11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.2` et quelle commande permet de le voir rapidement ? 
+git diff v0.1 v0.2
+v0.2 a retiré la clef API, et a un header dans l'index
 
+12. Que contient la branche `feature/login` ?
+du code
+13. Dans quelle branche a été ajouté le code pour le **mode sombre** ?
+experiment/dark-mode
+14. Quelle bonne pratique de sécurité est évoquée dans les commits du fichier `config.js` ?
+ne pas avoir de clef d'api public
 ### Partie 6 — Réflexion
 
 15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
