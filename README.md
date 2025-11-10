@@ -53,11 +53,20 @@ main
 ### Partie 3 — Historique et commits
 
 4. Quel est le message du **premier commit** du projet ?  
-5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ?  
-6. Quel commit a ensuite corrigé cette erreur ?  
-7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.  
+git log
+Initial commit: structure HTML/CSS/JS + README + docs
+5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ?
+git log -p config.js
+bea2d1aeaecd11e9c0af36cf6f052f65e82d36c5
+6. Quel commit a ensuite corrigé cette erreur ?
+git log -p config.js
+1b682c91ef14cda333419e2e387a53033ae575a1
+7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.
+git log -p index.html
+6317c073f7514d580522c90fa1f0f0402066a48f
 8. Quel est le message du commit qui a **ajouté le fichier `CHANGELOG.md`** et quelle commande avez-vous utilisé ?
-
+git log -p docs/CHANGELOG.md
+ed62890417d8c8fb880e55a2b8933b80b00ea1bd
 ### Partie 4 — Branches et fusions
 
 9. Quelles branches ont été fusionnées dans `main` ?  
